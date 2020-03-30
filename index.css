@@ -7,15 +7,13 @@
 
 
 .cover{
-    text-align: center; 		/*让div内部文字居中*/
+    text-align: center; 		/*让div内部内容居中*/
     background-color: #fff;
     border-radius: 20px;
     margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    position: relative; 
+	width:521px;
+	height:737px;
 }
 
 .img{
@@ -27,26 +25,28 @@
 #tec{
 	position:absolute;
 	top:80px;
-	left:550px;
+	left:50px;
 }
 
 #cate{
 	position:absolute;
 	top:100px;
-	left:550px;}
+	left:50px;
+}
 
 #tra{
 	position:absolute;
 	top:120px;
-	left:550px;}
+	left:50px;
+}
 
 #cart{
 	position:absolute;
 	top:140px;
-	left:550px;}
+	left:50px;}
 
 #me{
 	position:absolute;
 	top:160px;
-	left:550px;
+	left:50px;
 }
