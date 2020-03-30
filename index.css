@@ -10,43 +10,60 @@
     text-align: center; 		/*让div内部内容居中*/
     background-color: #fff;
     border-radius: 20px;
-    margin: auto;
+    margin: 60px auto;
     position: relative; 
 	width:521px;
 	height:737px;
 }
 
 .img{
-	border: 5px solid #ddd;
-    padding: 5px;
-    background: #fff;	
+	border: 1px solid #ddd;
+    padding: 10px 10px 15px;
+    background: #fff;
+	box-shadow:2px 2px 3px rgba(50,50,50,0.4);	
+}
+
+a{
+	color:black;	
 }
 
 #tec{
 	position:absolute;
 	top:80px;
 	left:50px;
+	font-size:16px;
+	font-family:宋体;
+/*	font-style:italic;  */
 }
 
 #cate{
 	position:absolute;
 	top:100px;
 	left:50px;
+	font-size:16px;
+	font-family:宋体;
 }
 
 #tra{
 	position:absolute;
 	top:120px;
 	left:50px;
+	font-size:16px;
+	font-family:宋体;
 }
 
 #cart{
 	position:absolute;
 	top:140px;
-	left:50px;}
+	left:50px;
+	font-size:16px;
+	font-family:宋体;
+}
 
 #me{
 	position:absolute;
 	top:160px;
 	left:50px;
+	font-size:16px;
+	font-family:宋体;
 }
