@@ -1,0 +1,11 @@
+@charset "gbk";
+
+
+body{
+	background-image: url(../Resource/Img/background.jpg);
+}
+
+h1{
+	text-align: center; 		/*让div内部内容居中*/
+	position: relative; 
+}
