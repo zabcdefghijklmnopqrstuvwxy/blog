@@ -10,19 +10,13 @@ body{
 	position:relative;
 }
 
+/*
 .title{
 	position:absolute;
-	width:600px;
-	height:100px;
-	text-align:center;
-	margin:auto;
-	font-size=40px;
-	font-family:宋体;
-	color:white;
-	top:20px;
-	left:100px;
+	width:1000px;
+	height:200px;
 }
-
+*/
 .me{
 	position:absolute;
 	width:400px;
@@ -31,6 +25,7 @@ body{
 	padding: 10px 10px 15px;
 	box-shadow:2px 2px 3px rgba(50,50,50,0.4);
     background:white;	
+	border-radius:20px;
 }
 
 .new{
@@ -41,4 +36,5 @@ body{
 	padding: 10px 10px 15px;
 	box-shadow:2px 2px 3px rgba(50,50,50,0.4);
     background:white;	
+	border-radius:20px;
 }
