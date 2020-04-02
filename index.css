@@ -19,8 +19,9 @@ body{
 */
 .me{
 	position:absolute;
-	width:400px;
-	height:400px;
+	margin:0 auto;
+	width:20%;
+	height:350px;
 	border: 1px solid #ddd;
 	padding: 10px 10px 15px;
 	box-shadow:2px 2px 3px rgba(50,50,50,0.4);
@@ -30,11 +31,56 @@ body{
 
 .new{
 	position:absolute;
-	width:900px;
-	height:150px;
+	margin:0 auto;
+	width:40%;
+	height:200px;
 	border: 1px solid #ddd;
 	padding: 10px 10px 15px;
 	box-shadow:2px 2px 3px rgba(50,50,50,0.4);
     background:white;	
 	border-radius:20px;
+}
+
+#i1{
+	position:absolute;
+	display:inline-block;
+	width: 48px;
+	height:48px;
+	top:25%;
+	left:10%;
+	background:url(./Resource/Ico/Github_black.png) no-repeat center;
+	text-indent:35px;
+}
+
+#i2{
+	position:absolute;
+	display:inline-block;
+	width: 48px;
+	height:48px;
+	top:25%;
+	left:30%;
+	background:url(./Resource/Ico/RSS_black.png) no-repeat center;
+	text-indent:35px;
+}
+
+#i3{
+	position:absolute;
+	display:inline-block;
+	width: 48px;
+	height:48px;
+	top:25%;
+	left:50%;
+	background:url(./Resource/Ico/Weibo_black.png) no-repeat center;
+	text-indent:35px;
+}
+
+#i4{
+	position:absolute;
+	display:inline-block;
+	width: 48px;
+	height:48px;
+	top:25%;
+	left:70%;
+	background:url(./Resource/Ico/Facebook_black.png) no-repeat center;
+	text-indent:35px;
 }
