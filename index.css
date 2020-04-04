@@ -1,22 +1,44 @@
 @charset "gbk";
 
-*{
-	margin:0;
-	padding:0;
+header{
+	width:100%;
+	height:100px;
 }
 
 body{
 	background-image:url(./Resource/Img/background.jpg);
 	position:relative;
+	width:100%;
+	height:90%;
 }
 
-/*
 .title{
 	position:absolute;
-	width:1000px;
-	height:200px;
+	width:200px;
+	height:80px;
+	font-size:40px;
+	font-family:宋体;
+	color:white;
+	text-align:center;
+	margin-left:15%;
+	margin-top:20px;
 }
-*/
+
+.linkmore{
+	position:absolute;
+	width:800px;
+	height:40px;
+	margin-left:35%;
+	margin-top:60px;
+	font-size:40px;
+	font-family:宋体;
+	color:white;
+}
+
+li{
+	display:none;
+}
+
 .me{
 	position:absolute;
 	margin:0 auto;
@@ -25,9 +47,25 @@ body{
 	border: 1px solid #ddd;
 	padding: 10px 10px 15px;
 	box-shadow:2px 2px 3px rgba(50,50,50,0.4);
-    background:white;	
 	border-radius:20px;
+	left:10%;
+	top:150px;
+	background:#fff url(./Resource/Img/head.jpg) no-repeat center top;
 }
+
+.music{
+	position:absolute;
+	margin:0 auto;
+	width:20%;
+	height:270px;
+	border: 1px solid #ddd;
+	padding: 10px 10px 15px;
+	border-radius:20px;
+	left:10%;
+	top:580px;
+	background:white url(./Resource/Img/cat.gif) no-repeat center top;	
+}
+
 
 .new{
 	position:absolute;
@@ -41,6 +79,120 @@ body{
 	border-radius:20px;
 }
 
+.change{
+	position:absolute;
+	width:210px;
+	height:100px;
+	background:url(./Resource/Img/night.jpg) no-repeat;
+	left:80%;
+	top:750px;
+}
+
+#Group11{
+	position:absolute;
+	width:95%;
+	height:30px;
+	border:1px solid red;
+	left:2%;
+}
+
+#Group12{
+	position:absolute;
+	width:30%;
+	height:160px;
+	border: 1px solid blue;
+	left:2%;
+	top:50px;
+}
+
+#Group13{
+	position:absolute;
+	width:60%;
+	height:130px;
+	border:1px solid green;	
+	top:50px;
+	left:35%;
+}
+
+#Group14{
+	position:absolute;
+	width:60%;
+	height:30px;
+	border: 1px solid pink;	
+	top:185px;
+	left:35%;
+}
+
+#Group21{
+	position:absolute;
+	width:95%;
+	height:30px;
+	border:1px solid red;
+	left:2%;
+}
+
+#Group22{
+	position:absolute;
+	width:30%;
+	height:160px;
+	border: 1px solid blue;
+	left:2%;
+	top:50px;
+}
+
+#Group23{
+	position:absolute;
+	width:60%;
+	height:130px;
+	border:1px solid green;	
+	top:50px;
+	left:35%;
+}
+
+#Group24{
+	position:absolute;
+	width:60%;
+	height:30px;
+	border: 1px solid pink;	
+	top:185px;
+	left:35%;
+}
+
+#Group31{
+	position:absolute;
+	width:95%;
+	height:30px;
+	border:1px solid red;
+	left:2%;
+}
+
+#Group32{
+	position:absolute;
+	width:30%;
+	height:160px;
+	border: 1px solid blue;
+	left:2%;
+	top:50px;
+}
+
+#Group33{
+	position:absolute;
+	width:60%;
+	height:130px;
+	border:1px solid green;	
+	top:50px;
+	left:35%;
+}
+
+#Group34{
+	position:absolute;
+	width:60%;
+	height:30px;
+	border: 1px solid pink;	
+	top:185px;
+	left:35%;
+}
+
 #i1{
 	position:absolute;
 	display:inline-block;
@@ -49,7 +201,6 @@ body{
 	top:25%;
 	left:10%;
 	background:url(./Resource/Ico/Github_black.png) no-repeat center;
-	text-indent:35px;
 }
 
 #i2{
@@ -60,7 +211,6 @@ body{
 	top:25%;
 	left:30%;
 	background:url(./Resource/Ico/RSS_black.png) no-repeat center;
-	text-indent:35px;
 }
 
 #i3{
@@ -71,7 +221,6 @@ body{
 	top:25%;
 	left:50%;
 	background:url(./Resource/Ico/Weibo_black.png) no-repeat center;
-	text-indent:35px;
 }
 
 #i4{
@@ -82,5 +231,4 @@ body{
 	top:25%;
 	left:70%;
 	background:url(./Resource/Ico/Facebook_black.png) no-repeat center;
-	text-indent:35px;
 }
