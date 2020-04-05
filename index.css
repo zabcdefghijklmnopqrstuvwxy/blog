@@ -63,7 +63,7 @@ li{
 	border-radius:20px;
 	left:10%;
 	top:580px;
-	background:white url(./Resource/Img/cat.gif) no-repeat center top;	
+	background:white url(./Resource/Img/music.gif) no-repeat center top;	
 }
 
 
@@ -92,105 +92,115 @@ li{
 	position:absolute;
 	width:95%;
 	height:30px;
-	border:1px solid red;
 	left:2%;
+	color:#5F9EA0;
+	font-size:20px;
+	font-family:隶书;
 }
 
 #Group12{
 	position:absolute;
 	width:30%;
 	height:160px;
-	border: 1px solid blue;
 	left:2%;
 	top:50px;
+	background:url(./Resource/Img/11.jpg) no-repeat center;
 }
 
 #Group13{
 	position:absolute;
 	width:60%;
 	height:130px;
-	border:1px solid green;	
 	top:50px;
 	left:35%;
+	color:#B0C4DE;
+	font-family:新宋体;
 }
 
 #Group14{
 	position:absolute;
 	width:60%;
 	height:30px;
-	border: 1px solid pink;	
 	top:185px;
 	left:35%;
+	color:#7FFFD4;
+	font-family:华文细黑;
 }
 
 #Group21{
 	position:absolute;
 	width:95%;
 	height:30px;
-	border:1px solid red;
 	left:2%;
+	color:#5F9EA0;
+	font-size:20px;
+	font-family:隶书;
 }
 
 #Group22{
 	position:absolute;
 	width:30%;
 	height:160px;
-	border: 1px solid blue;
 	left:2%;
 	top:50px;
+	background:url(./Resource/Img/22.jpg) no-repeat center;
 }
 
 #Group23{
 	position:absolute;
 	width:60%;
 	height:130px;
-	border:1px solid green;	
 	top:50px;
 	left:35%;
+	color:#B0C4DE;
+	font-family:新宋体;
 }
 
 #Group24{
 	position:absolute;
 	width:60%;
 	height:30px;
-	border: 1px solid pink;	
 	top:185px;
 	left:35%;
+	color:#7FFFD4;
 }
 
 #Group31{
 	position:absolute;
 	width:95%;
 	height:30px;
-	border:1px solid red;
 	left:2%;
+	color:#5F9EA0;
+	font-size:20px;
+	font-family:隶书;
 }
 
 #Group32{
 	position:absolute;
 	width:30%;
 	height:160px;
-	border: 1px solid blue;
 	left:2%;
 	top:50px;
+	background:url(./Resource/Img/33.jpg) no-repeat center;
 }
 
 #Group33{
 	position:absolute;
 	width:60%;
 	height:130px;
-	border:1px solid green;	
 	top:50px;
 	left:35%;
+	color:#B0C4DE;
+	font-family:新宋体;
 }
 
 #Group34{
 	position:absolute;
 	width:60%;
 	height:30px;
-	border: 1px solid pink;	
 	top:185px;
 	left:35%;
+	color:#7FFFD4;
 }
 
 #i1{
